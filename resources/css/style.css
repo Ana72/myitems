@@ -3,7 +3,23 @@ header {
   font-size: 14px;
   font-weight: bold;
   position: fixed;
+  display:flex;
+  align-items: center;
 }
 .mytimes{
   color: Mediumaquamarine;
+  text-align:center;
+}
+nav li {
+  display: inline-block;
+}
+.logo .mytimes {
+  display: inline;
+}
+.left {
+  display: inline-flex;
+}
+.right {
+  display: flex;
+  flex-direction:row-reverse;
 }
