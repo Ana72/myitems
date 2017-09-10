@@ -1,14 +1,25 @@
-header {
+.header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   position: fixed;
   display:flex;
-  align-items: center;
+  border: 1px solid black;
+  z-index: 20;
+  background-color:white;
+  width:100%;
+  justify-content: space-between;
+
+}
+.cuerpo {
+  position: relative;
 }
 .mytimes{
   color: Mediumaquamarine;
   text-align:center;
+}
+nav {
+  display:inline-flex;
 }
 nav li {
   display: inline-block;
@@ -18,8 +29,10 @@ nav li {
 }
 .left {
   display: inline-flex;
+
 }
 .right {
   display: flex;
   flex-direction:row-reverse;
+
 }
