@@ -7,12 +7,12 @@
   border: 1px solid black;
   z-index: 20;
   background-color:white;
-  width:100%;
   justify-content: space-between;
+  margin: 0px 5px 0px 0px;
 
 }
 .cuerpo {
-  position: relative;
+
 }
 .mytimes{
   color: Mediumaquamarine;
@@ -33,6 +33,6 @@ nav li {
 }
 .right {
   display: flex;
-  flex-direction:row-reverse;
+  flex-direction:row;
 
 }
