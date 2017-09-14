@@ -6,12 +6,14 @@ margin: 0 auto;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  width: 95%;
+  width: 98%;
   position: fixed;
   padding: 20px;
   display :flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid black;
+  margin: 0 auto;
 }
 .left {
   display: flex;
@@ -20,6 +22,10 @@ margin: 0 auto;
 .logo{
   display: flex;
   align-items: flex-start;
+}
+.header .logo p{
+  padding-top: 10px;
+  color:Aquamarine;
 }
 .right {
   display: flex;
