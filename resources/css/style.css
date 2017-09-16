@@ -1,6 +1,7 @@
 body{
 display: flex;
 margin: 0 auto;
+flex-direction: column;
   }
 .header {
   font-family: Verdana;
@@ -48,62 +49,11 @@ margin: 0 auto;
   z-index: 0;
   position: relative;
   top:113px;
-
+  width:98%;
 }
-.column.large {
+.columnlarge {
   display: flex;
-  flex-shrink: 1;
-  width: 630px;
-}
-.contenido1{
-  display: flex;
+  max-width: 630px;
   flex-direction: column;
-}
-.textofoto{
-  display:flex;
-}
-
-.column.medium {
-  display: flex;
-  flex-shrink: 1;
-  width: 300px;
-}
-
-.column.small {
-  display: flex;
-  flex-shrink: 1;
-  width: 240px;
-}
-p {
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
-}
-
-.textofoto p{
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-}
-.contenido1 .imagen .textofoto p{
-  font-size: 40px;
-}
-.párrafo6 p{
-  font-size: 16px;
-  font-weight: bold;
-}
-.párrafonews p{
-  background-color: WhiteSmoke;
-  font-family: Verdana;
-  font-size: 12px;
-  color: DimGray;
-}
-.contenido{
-  display:flex;
-  justify-content:center;
-  align-items: center;
-}
-.footer{
-  display: flex;
+  padding: 20px;
 }
