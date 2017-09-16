@@ -60,10 +60,8 @@ flex-direction: column;
 .contenido1{
   display:flex;
 }
-h1{
+.textofoto{
   display:flex;
-  position:relative;
-  justify-content:center;
-  align-items: center;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  height: 300px;
 }
