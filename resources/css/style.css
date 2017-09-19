@@ -57,11 +57,59 @@ flex-direction: column;
   flex-direction: column;
   padding: 20px;
 }
-.contenido1{
+.contenido1 .contenido2 .contenido3{
   display:flex;
+  flex-direction: column;
 }
-.textofoto{
+.contenido2 .contenido3{
+  max-width: 315px;
+}
+.textofoto1{
   display:flex;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  background-repeat: no-repeat;
   height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  }/* Haciendo el span un div, conseguimos con estas órdenes a
+  su padre que se alinee dentro de su padre por arriba y por abajo,
+  y que a su vez el texto dentro de él también se centre */
+
+.parrafo{
+  padding:20px 0px;
 }
+.textofoto2{
+  display:flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+  background-repeat: no-repeat;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  }
+.contenido4{
+  display:flex;
+  flex-direction: row;
+}
+.textofoto2{
+  display:flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+  background-repeat: no-repeat;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  }
